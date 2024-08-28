@@ -107,7 +107,7 @@ function CardImg(): JSX.Element | string {
         >
           <div className="d-flex justify-content-between align-items-center">
             <span className="fw-bold fs-5 text-white">
-              Inspection Checklist
+              Last Month Report
             </span>
             <a href="/pdfs/PVT-REPORT.pdf" download className="btn ">
               <svg
