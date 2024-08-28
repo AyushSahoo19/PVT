@@ -1,0 +1,14 @@
+.card-3d {
+    perspective: 1000px;
+  }
+  
+  .card-3d .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    transform-style: preserve-3d;
+  }
+  
+  .card-3d .card:hover {
+    transform: rotateY(10deg) rotateX(10deg); /* Adjust rotation as needed */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adjust shadow as needed */
+  }
+  
