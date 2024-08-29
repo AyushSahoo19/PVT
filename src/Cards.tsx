@@ -25,10 +25,10 @@ function CardImg(): JSX.Element | string {
 
           {/* Last Date and Due Date */}
           <p className="text-muted fw-bold mb-1 fs-5 card-header">
-            Last Date: <span className="fw-semibold">2024-09-01</span>
+            Last Date: <span className="fw-semibold">28-02-2024</span>
           </p>
           <p className="text-muted fw-bold fs-5 card-header bg-light">
-            Due Date: <span className="fw-semibold">2024-09-15</span>
+            Due Date: <span className="fw-semibold">27-08-2024</span>
           </p>
         </div>
       </div>
@@ -106,9 +106,7 @@ function CardImg(): JSX.Element | string {
           style={{ maxWidth: "18rem" }}
         >
           <div className="d-flex justify-content-between align-items-center">
-            <span className="fw-bold fs-5 text-white">
-              Last Month Report
-            </span>
+            <span className="fw-bold fs-5 text-white">Last Month Report</span>
             <a href="/pdfs/PVT-REPORT.pdf" download className="btn ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
