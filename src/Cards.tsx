@@ -1,7 +1,7 @@
 function CardImg(): JSX.Element | string {
   return (
     <>
-      <h1 className="text-center py-3 fw-bold">PRESSURE VESSEL TEST</h1>
+      <h1 className="text-center py-3 fw-bold">REPORTS OF KIM EQUIPMENT</h1>
 
       {/* Main Card */}
       <div
@@ -20,17 +20,17 @@ function CardImg(): JSX.Element | string {
           alt="Equipment"
         />
 
-        <div className="card-body p-2">
+        {/*<div className="card-body p-2">
           <p className="card-text"></p>
 
-          {/* Last Date and Due Date */}
+          
           <p className="text-muted fw-bold mb-1 fs-5 card-header">
             Last Date: <span className="fw-semibold">28-02-2024</span>
           </p>
           <p className="text-muted fw-bold fs-5 card-header bg-light">
             Due Date: <span className="fw-semibold">27-08-2024</span>
           </p>
-        </div>
+        </div>*/}
       </div>
 
       <div className="d-flex  row row-cols-1 row-cols-md-3 g-4">
@@ -41,9 +41,9 @@ function CardImg(): JSX.Element | string {
         >
           <div className="d-flex justify-content-between align-items-center">
             <span className="fw-bold fs-5 text-white">
-              Inspection Checklist
+              PVT & NDT REPORT
             </span>
-            <a href="/pdfs/PVT-REPORT.pdf" download className="btn ">
+            <a href="/pdfs/PVT & NDT-REPORT.pdf" download className="btn ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="28"
@@ -55,39 +55,22 @@ function CardImg(): JSX.Element | string {
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z" />
               </svg>
             </a>
+            
           </div>
+          <p className="text-white fw-bold fs-5 card-header ">
+            Due Date: <span className="fw-semibold">27-08-2024</span>
+          </p>
         </div>
 
-        {/* Additional Card with Info Background */}
-        <div
-          className="card text-bg-info mb-3 p-3 mx-auto card-3d"
-          style={{ maxWidth: "18rem" }}
-        >
-          <div className="d-flex justify-content-between align-items-center">
-            <span className="fw-bold fs-4 text-white">Manual Report</span>
-            <a href="/pdfs/PVT-REPORT.pdf" download className="btn ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="28"
-                height="28"
-                fill="currentColor"
-                className="bi bi-arrow-down-circle-fill"
-                viewBox="0 0 16 16"
-              >
-                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z" />
-              </svg>
-            </a>
-          </div>
-        </div>
-
+        
         {/* Additional Card with Primary Background */}
         <div
           className="card text-bg-primary mb-3 p-3 mx-auto card-3d"
           style={{ maxWidth: "18rem" }}
         >
           <div className="d-flex justify-content-between align-items-center">
-            <span className="fw-bold fs-4 text-white">Monthly Report</span>
-            <a href="/pdfs/PVT-REPORT.pdf" download className="btn ">
+            <span className="fw-bold fs-4 text-white">Monthly Checklist</span>
+            <a href="/pdfs/Monthly Checklist.pdf" download className="btn ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="28"
@@ -102,12 +85,12 @@ function CardImg(): JSX.Element | string {
           </div>
         </div>
         <div
-          className="card rounded-lg text-bg-secondary mb-3 p-3 mx-auto card-3d"
+          className="card rounded-lg text-bg-info mb-3 p-3 mx-auto card-3d"
           style={{ maxWidth: "18rem" }}
         >
           <div className="d-flex justify-content-between align-items-center">
-            <span className="fw-bold fs-5 text-white">Last Month Report</span>
-            <a href="/pdfs/PVT-REPORT.pdf" download className="btn ">
+            <span className="fw-bold fs-5 text-white">Manual</span>
+            <a href="/pdfs/Manual.PDF" download className="btn ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="28"
