@@ -58,7 +58,7 @@ function CardImg(): JSX.Element | string {
             
           </div>
           <p className="text-white fw-bold fs-5 card-header ">
-            Due Date: <span className="fw-semibold">27-08-2024</span>
+            Due Date: <span className="fw-semibold">27-02-2025</span>
           </p>
         </div>
 
